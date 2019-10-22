@@ -2,10 +2,11 @@
 Just a Bubble Sort,
 
 #include <stdio.h>
- 
+#include<stdlib.h> 
 int main()
 {
-  int array[100], n, c, d, swap;
+  int n, c, d, swap;
+  int *a= (int *)malloc(100*sizeof(int));
  
   printf("Enter number of elements\n");
   scanf("%d", &n);
