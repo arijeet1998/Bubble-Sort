@@ -1,5 +1,5 @@
 # Bubble-Sort
-Just a Bubble Sort,
+Just a Bubble Sort!
 
 #include <stdio.h>
 #include<stdlib.h> 
